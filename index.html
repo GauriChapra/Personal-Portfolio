@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gauri personal portfolio website</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Gauri Chapra</a>
+        <i class='bx bx-menu'></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>     
+          <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="detail">
+            <h1>HELLO! <span> I'm  Gauri </span></h1>
+        
+          
+        <div class="home-image">
+            <img src="profile.jpg" alt="profile-image">
+        </div>
+        <div class="social-media">
+            <a href="https://www.instagram.com/iamgaurichapra/"><i
+                    class='bx bxl-instagram'></i></a>
+            <a href="https://github.com/GauriChapra"><i
+                    class='bx bxl-github'></i></a>
+            <a
+                href="https://www.linkedin.com/in/gauri-chapra-55377b24b"><i
+                    class='bx bxl-linkedin'></i></a>
+        </div>
+    </section>
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <h2>About Me</h2>
+                <p>I am Gauri a dynamic computer science student with an insatiable curiosity for the intricacies of the digital realm. Currently pursuing a Bachelor's degree in Computer Science at SRM University Chennai. I have profound interest in cutting-edge technologies like web development and also towards competitve programming.
+                    Beyond the classroom , I am actively engaged in student-led clubs and community in technical domain. This passion extends to various personal projects and committed to gaining practical experience through internships and collaborative ventures
+
+
+            
+
+                </p>
+                <div class="educational-details">
+                    <h3>Educational Details</h3>
+                    <ol>
+                        <li><strong>Bachelor of Technology</strong> - S.R.M University (2022-2026)</li>
+                        <li><strong>School </strong> - St. Joseph's Convent Girls Sen. Sec School, Jabalpur (2022)</li>
+                       
+                    </ol>
+                    <p class="school">My schooling has been a journey marked by academic excellence, a strong foundation in computer science, and active engagement in practical applications. I scored 92% in my 10th Std. and 91% in my 12th Std. In my first year of college I obtained a C.G.P.A of 9.91 </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="skills">
+        <h2 class="skills-heading">SKILLS</h2>
+        <div class="skills">
+            <h3>Frontend</h3>
+            <p> HTML  ,  CSS  ,  JAVASCRIPT
+               <p>REACT (FRAMEWORK) </p>
+            </p>
+            <br>
+            <br>
+            <br>
+            <h3>Languages & Libraries</h3>
+            <p> C , C++ , SQL , JAVA </p>
+            <p>PYTHON (NUMPY , PANDAS , MATPLOTLIB) </p>
+            <br>
+            <br>
+            <br>
+            <h3>Communication</h3>
+            <p>HINDI , ENGLISH , GERMAN</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2 class="project-heading">My Projects</h2>
+        <div class="project">
+            
+            <br>
+            <p>TO-DO List REACT</p>
+            <img src="react todo.jpg" alt="Project 1 Screenshot">
+          
+        </div>
+        <div class="project">
+            
+            <br>
+            <p>Automatic Fire Fighting Bot</p>
+            <img src="fire bot.jpg" alt="Project 2 Screenshot">
+            
+        </div>
+        <div class="project">
+           
+            <br>
+            <p>Ball Breakout Game (JAVA)</p>
+            <img src="ball.jpg" alt="Project 2 Screenshot">
+        </div>
+    </section>
+    <section id="course" >
+        <h2 class="course-head">CERTIFICATIONS , HACKATHON & HACKERRANK </h2>
+        <div class="course">
+            <p>ONLINE CERTIFICATIONS</p>
+            <img class= "hack1" src="course.jpg" alt="1 ss">
+        </div>
+        <br>
+        <br>
+        <div class="course">
+            <p>HACKATHON</p>
+            <img class="hack2" src="hackathon.jpg" alt="2 ss">
+        </div>
+        <div class="course">
+            <p>HACKERRANK</p>
+            <img class="hack2" src="hackerrank.jpg" alt="3 ss">
+        </div>
+    </section>
+    <section id="intern">
+        <h2 class="intern-head">EXPERIENCE & INTERNSHIPS</h2>
+        <div class="intern">
+            <img src="internship.jpg" alt="int ss"> 
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>CONNECT</h2>
+            <p>Feel free to reach out </p>
+            <ul>
+                <li>Email: <a href="mailto:gaurichapra12@gmail.com">gaurichapra12@gmail.com</a></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/gauri-chapra-55377b24b "target="_blank">https://www.linkedin.com/in/gauri-chapra-55377b24b</a></li>
+                <li>Github: <a href="https://github.com/GauriChapra "target="_blank">https://github.com/GauriChapra</a></li>
+            </ul>
+            <form action="process_form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required autocomplete="off">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required autocomplete="off"></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
